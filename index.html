@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andreas Tollmar</title>
+    <script src="scripts/menu.js" defer></script>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+  </head>
+
+  <body>
+    <header class="head flex">
+      <h1 class="logo">Andreas Tollmar</h1>
+
+      <button
+        class="mobile-nav-toggle"
+        aria-expanded="false"
+        aria-controls="primary-navigation"
+      ></button>
+
+      <nav>
+        <ul
+          class="primary-navigation flex"
+          id="primary-navigation"
+          data-visible="false"
+        >
+          <li>
+            <a href="index.html"><span aria-hidden="true">00</span>Start</a>
+          </li>
+          <li>
+            <a href="bishbosh.html"
+              ><span aria-hidden="true">01</span>BishBosh</a
+            >
+          </li>
+
+          <li>
+            <a href="klocka.html"><span aria-hidden="true">02</span>Klocka</a>
+          </li>
+          <li>
+            <a href="#"><span aria-hidden="true">03</span>CV</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="aboutme flex">
+      <main class="flex main-content">
+        <article class="aboutme-text">
+          <h3>About Me</h3>
+          <img src="images/Andreas Tollmar (2).png" />
+          <p class="imgtext">
+            My name is Andreas and i am currently studying Systemdeveloping in
+            .NET at campus Nyköping. Prior to this i've been working at SSAB
+            Oxelösund since 2011 and i felt that something was missing from my
+            life. Luckily, i found out that it was programming.
+          </p>
+        </article>
+        <article>
+          <h3>Experience</h3>
+          <p>
+            As my education is mostly about codeing in C# that is currently my
+            strongest side. But we have touched and done various different
+            programs in other languages such as: <br />
+            <span class="lang">Sql HTML Css JS Xaml Databases MAUI</span>
+          </p>
+        </article>
+        <article class="projects" id="projects">
+          <h3>Projects</h3>
+          <div class="videos">
+            <video
+              class="video video1"
+              src="images/gearinsight.mp4"
+              controls
+            ></video>
+            <p>
+              Project with Jesper Kedén. World of Warcraft Armory developed in
+              2023
+            </p>
+            <video
+              src="images/resturang.mp4"
+              class="video video2"
+              controls
+            ></video>
+            <p>A textbased resturant developed with 2 classmates in 2022</p>
+          </div>
+        </article>
+      </main>
+    </div>
+    <footer class="flex footer">
+      <div class="flex footer-info">
+        <a href="https://github.com/andreastollmar" target="_blank"
+          ><img src="images/github.webp" width="100px"
+        /></a>
+        <a href="https://linkedin.com"
+          ><img src="images/linkedin.webp" width="30px"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>
