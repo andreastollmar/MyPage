@@ -210,8 +210,8 @@ article img{
     }
 
     .mobile-nav-toggle[aria-expanded="true"]{
-        background-image: url("../images/hamburgerclose.png");
-        width: 1rem;
+        background-image: url("../images/hamburgerclose-removebg-preview.png");
+        width: .70rem;
     }
 }
 
